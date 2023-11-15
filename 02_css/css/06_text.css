@@ -1,0 +1,38 @@
+#sample{
+    /* block요소 하위 텍스트 정렬; */
+    text-align: center; 
+    text-decoration: underline 2px red wavy; /*underline | line-through | overline */
+    text-shadow: 3px 3px 0px gray; /* x-offset y-offset spread color*/
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.bg{
+    background-color: black;
+
+}
+
+.shadow{
+    font-weight: bold;
+    font-size:  100px;
+    color:white;
+}
+#shadow1{
+    color:orange;
+    text-shadow: 5px/5px 0 orangered;
+}
+#shadow2{
+    color: teal;
+    text-shadow: 5px/5px 0 red;
+}
+#shadow3{
+    color: teal;
+    text-shadow: 5px/5px 0 yellow;
+}
+#shadow4{
+    color: teal;
+    text-shadow: 5px/5px 0 blue;
+}
